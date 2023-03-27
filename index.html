@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Tic Tac Toe</li>
+        </ul>
+        <div class="resetbtn"><button class="reset" onclick="handleReset()">Reset</button></div>
+    </nav>
+    <div class="container">
+        <div class="info">
+            <p class="winner"></p>
+            <div class="turn"></div>
+            <div class="gif"><img src="gamewingif2.gif" alt=""></div>
+            <div class="fp"></div>
+            <div class="sp"></div> 
+        </div>
+        <div class="gamegrid">
+            <div class="box bt bl"><span class="boxcontent"></span></div>
+            <div class="box bt"><span class="boxcontent"></span></div>
+            <div class="box bt br"><span class="boxcontent"></span></div>
+            <div class="box bl"><span class="boxcontent"></span></div>
+            <div class="box"><span class="boxcontent"></span></div>
+            <div class="box br"><span class="boxcontent"></span></div>
+            <div class="box bl bb"><span class="boxcontent"></span></div>
+            <div class="box bb"><span class="boxcontent"></span></div>
+            <div class="box br bb"><span class="boxcontent"></span></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
